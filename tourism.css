@@ -1,3 +1,4 @@
+/*
 *{
     font-size: 62.5%;
     padding: 0;
@@ -143,4 +144,205 @@ section {
     background: none;
     font-size: 1.6rem;
     margin-top: 1rem;
+}
+*/
+
+
+*{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: black;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+section {
+    padding: 10rem 10%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(47, 45, 45);
+    position: fixed;
+    text-transform: capitalize;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    right: 0;
+    padding: 2rem 10%;
+}
+
+.logo{
+    color:white;
+    font-size: 2.5rem;
+}
+
+.logo i{
+    color:aquamarine;
+    padding-right: 0.5rem;
+}
+
+.nav-bar{
+    padding: 0.7rem;
+}
+
+.nav-bar a{
+    margin: 1.7rem;
+    font-size: 1.7rem;
+    color:rgb(197, 195, 195);
+}
+
+.btn{
+    font-size: 1.7rem;
+    border: 0.2rem solid aquamarine;
+    border-radius: 2rem;
+    padding: 0.8rem 2rem;
+    color:aquamarine;
+    background: none;
+}
+
+.btn:hover{
+    background:aquamarine;
+    color: black;
+}
+
+.home{
+    margin: 0 auto;
+    margin-top: 9rem;
+    width: 90%;
+    text-transform: capitalize;
+    border: 0.2rem solid black;
+    border-radius: 1.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./images/homeimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content span{
+    font-size: 6rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.1rem #fff;
+    color: transparent;
+    /* margin: 5rem 0rem; */
+}
+
+.home .content h3{
+    font-size: 7rem;
+    color:white;
+    /* margin: 2rem 0rem; */
+}
+
+.home .content{
+    text-align: center;
+    /* padding: 10rem 15rem; */
+}
+
+.home .content p{
+    color:rgb(197, 195, 195);
+    font-size: 2rem;
+    word-spacing: 1rem;
+    margin: 5rem 0rem;
+}
+
+.bookform{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -5rem;
+    background-color: #2f2d2d;
+    padding: 2rem 4rem;
+    border: 0.2rem solid #2f2d2d;
+    border-radius: 1.5rem;
+}
+
+.bookform form {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.bookform form .inputbox span{
+    font-size: 1.4rem;
+    color:rgb(197, 195, 195);
+}
+
+.bookform form .btn{
+    margin-top: 3rem;
+    width: 20%;
+}
+
+.bookform form .btn:hover{
+    background: aquamarine;
+}
+
+.bookform form .inputbox input{
+    width: 100%;
+    border: 0.2rem solid aquamarine;
+    border-radius: 2rem;
+    padding: 1.2rem 1.4rem;
+    color:white;
+    background: none;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+p{
+    color:rgb(197, 195, 195);
+    font-size: 2rem;
+    word-spacing: 1rem;
+    /* margin: 5rem 0rem; */
+}
+
+.about{
+    border: 0.2rem solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+    padding: 9rem 6rem;
+}
+
+.about .video-container{
+    margin: 0 2rem;
+}
+
+.about .video-container .video{
+    border-radius: 1.5rem;
+    max-width: 100%;
+}
+
+/* .about .video-container .controls{
+    padding: 10rem 0;
+} */
+
+.about .content{
+    width: 100%;
+}
+
+.about .content span{
+    color:aquamarine;
+    word-spacing: 0.5rem;
+    font-size: 2rem;
+}
+
+.about .content h1{
+    color:white;
+    word-spacing: 0.5rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.about .content p{
+    margin: 1rem 0rem 3rem 0rem;
 }
